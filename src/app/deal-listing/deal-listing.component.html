@@ -1,0 +1,13 @@
+<ng-container *ngFor="let dealId of dealIds">
+  <a [routerLink]="[dealId]">
+
+    <mat-card>
+      <mat-card-title>
+        Deal {{ dealId }}
+      </mat-card-title>
+    </mat-card>
+
+  </a>
+
+  <mat-divider></mat-divider>
+</ng-container>
